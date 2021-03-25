@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/writers",
-      "handler": "writer.find",
+      "path": "/aktuelle-projekte",
+      "handler": "aktuelle-projekte.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/writers/count",
-      "handler": "writer.count",
+      "path": "/aktuelle-projekte/count",
+      "handler": "aktuelle-projekte.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/writers/:id",
-      "handler": "writer.findOne",
+      "path": "/aktuelle-projekte/:id",
+      "handler": "aktuelle-projekte.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/writers",
-      "handler": "writer.create",
+      "path": "/aktuelle-projekte",
+      "handler": "aktuelle-projekte.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/writers/:id",
-      "handler": "writer.update",
+      "path": "/aktuelle-projekte/:id",
+      "handler": "aktuelle-projekte.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/writers/:id",
-      "handler": "writer.delete",
+      "path": "/aktuelle-projekte/:id",
+      "handler": "aktuelle-projekte.delete",
       "config": {
         "policies": []
       }

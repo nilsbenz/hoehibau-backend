@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aktuelle_projekte",
+  "info": {
+    "name": "AktuelleProjekte",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "titel": {
+      "type": "string",
+      "required": true
+    },
+    "untertitel": {
+      "type": "string",
+      "required": true
+    },
+    "bilder": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
